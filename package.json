@@ -1,4 +1,5 @@
 {
+  "homepage": "https://brunogitguimaraes.github.io/User-registration",
   "name": "projeto-react-2.0",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "express": "^4.21.2",
